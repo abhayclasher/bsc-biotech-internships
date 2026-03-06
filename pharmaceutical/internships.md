@@ -1,80 +1,323 @@
 # 💊 Pharmaceutical Internships in India
 
-## All India Coverage | Updated Daily
+## Complete List with Apply Links | Updated Daily
 
 ---
 
 <div align="center">
 
-### Last Updated: March 6, 2026 | 12:00 PM IST
+### Last Updated: March 6, 2026 | 12:07 PM IST
 
 </div>
 
 ---
 
-## 📋 All Pharmaceutical Internships
+## 📋 Complete Internship Listings
 
 ### 🏭 Drug Research & Development
 
-| # | Company | Role | Location | Stipend | Posted |
-|:---:|:---|:---|:---|:---|:---:|
-| 1 | Pfizer | Biotech/Biochem Trainee | Kolkata | Competitive | Mar 4 |
-| 2 | Biocon | Drug Development | Bangalore | Competitive | Mar 3 |
-| 3 | Glenmark | Research Intern | Mumbai | ₹12-15K | Mar 3 |
-| 4 | Lupin | R&D Intern | Mumbai/Pune | ₹10-15K | Mar 2 |
-| 5 | Sun Pharma | Research Associate | Delhi/Mumbai | ₹12-18K | Mar 4 |
-| 6 | Cipla | Quality Control | Mumbai | ₹10-15K | Mar 3 |
-| 7 | Dr. Reddy's | R&D Intern | Hyderabad | ₹12-18K | Mar 4 |
+#### 1. Pfizer
+| Field | Details |
+|:---|:---|
+| **Company** | Pfizer |
+| **Role** | Biotech/Biochem Trainee |
+| **Location** | Kolkata, West Bengal |
+| **Stipend** | Competitive |
+| **Duration** | 6-12 Months |
+| **Qualification** | BSc Biotechnology, Biochemistry, Pharmacy |
+| **Skills Required** | Lab Work, Research |
+| **Posted Date** | March 4, 2026 |
+| **Apply Link** | https://www.pfizer.com/careers |
+| **HR Email** | india.careers@pfizer.com |
+
+---
+
+#### 2. Biocon
+| Field | Details |
+|:---|:---|
+| **Company** | Biocon |
+| **Role** | Drug Development Intern |
+| **Location** | Bangalore, Karnataka |
+| **Stipend** | Competitive |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Biotechnology, Pharmacy |
+| **Skills Required** | Bioprocessing, R&D |
+| **Posted Date** | March 3, 2026 |
+| **Apply Link** | https://www.biocon.com/careers/ |
+| **HR Email** | careers@biocon.com |
+
+---
+
+#### 3. Glenmark Pharmaceuticals
+| Field | Details |
+|:---|:---|
+| **Company** | Glenmark Pharmaceuticals |
+| **Role** | Research Intern |
+| **Location** | Mumbai, Maharashtra |
+| **Stipend** | ₹12,000 - 15,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Pharmacy, Biotechnology |
+| **Skills Required** | Pharmaceutical R&D |
+| **Posted Date** | March 3, 2026 |
+| **Apply Link** | https://www.glenmarkpharma.com/careers/ |
+| **HR Email** | hr@glenmarkpharma.com |
+
+---
+
+#### 4. Lupin
+| Field | Details |
+|:---|:---|
+| **Company** | Lupin Ltd |
+| **Role** | R&D Intern |
+| **Location** | Mumbai, Pune |
+| **Stipend** | ₹10,000 - 15,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Pharmacy, Biotechnology |
+| **Skills Required** | Drug Research |
+| **Posted Date** | March 2, 2026 |
+| **Apply Link** | https://www.lupin.com/careers/ |
+| **HR Email** | careers@lupin.com |
+
+---
+
+#### 5. Sun Pharma
+| Field | Details |
+|:---|:---|
+| **Company** | Sun Pharmaceutical Industries |
+| **Role** | Research Associate Intern |
+| **Location** | Delhi, Mumbai |
+| **Stipend** | ₹12,000 - 18,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Pharmacy, Chemistry |
+| **Skills Required** | Pharmaceutical Research |
+| **Posted Date** | March 4, 2026 |
+| **Apply Link** | https://www.sunpharma.com/careers/ |
+| **HR Email** | careers@sunpharma.com |
+
+---
+
+#### 6. Cipla
+| Field | Details |
+|:---|:---|
+| **Company** | Cipla Ltd |
+| **Role** | Quality Control Intern |
+| **Location** | Mumbai |
+| **Stipend** | ₹10,000 - 15,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Pharmacy, Chemistry |
+| **Skills Required** | QC, Testing |
+| **Posted Date** | March 3, 2026 |
+| **Apply Link** | https://www.cipla.com/careers/ |
+| **HR Email** | careers@cipla.com |
+
+---
+
+#### 7. Dr. Reddy's
+| Field | Details |
+|:---|:---|
+| **Company** | Dr. Reddy's Laboratories |
+| **Role** | R&D Intern |
+| **Location** | Hyderabad |
+| **Stipend** | ₹12,000 - 18,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Pharmacy, Biotechnology |
+| **Skills Required** | Pharmaceutical R&D |
+| **Posted Date** | March 4, 2026 |
+| **Apply Link** | https://www.drreddys.com/careers/ |
+| **HR Email** | careers@drreddys.com |
 
 ---
 
 ### 💉 Healthcare & Medical Affairs
 
-| # | Company | Role | Location | Stipend | Posted |
-|:---:|:---|:---|:---|:---|:---:|
-| 8 | Roche | Medical Affairs | Mumbai/Delhi | Competitive | Mar 3 |
-| 9 | Abbott | R&D Intern | Mumbai/Delhi | Competitive | Mar 2 |
-| 10 | Novartis | Clinical Trials | Bangalore | ₹15-20K | Mar 4 |
-| 11 | Bayer | Pharma Research | Mumbai | Competitive | Mar 3 |
-| 12 | Sanofi | Medical Operations | Mumbai | ₹12-15K | Mar 4 |
+#### 8. Roche
+| Field | Details |
+|:---|:---|
+| **Company** | Roche |
+| **Role** | Medical Affairs Intern |
+| **Location** | Mumbai, Delhi |
+| **Stipend** | Competitive |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Life Sciences, Pharmacy |
+| **Skills Required** | Medical Writing |
+| **Posted Date** | March 3, 2026 |
+| **Apply Link** | https://www.roche.com/careers |
+| **HR Email** | india.careers@roche.com |
+
+---
+
+#### 9. Abbott
+| Field | Details |
+|:---|:---|
+| **Company** | Abbott |
+| **Role** | R&D Intern |
+| **Location** | Mumbai, Delhi |
+| **Stipend** | Competitive |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Science, Pharmacy |
+| **Skills Required** | R&D Skills |
+| **Posted Date** | March 2, 2026 |
+| **Apply Link** | https://www.abbott.com/careers |
+| **HR Email** | careers.india@abbott.com |
+
+---
+
+#### 10. Novartis
+| Field | Details |
+|:---|:---|
+| **Company** | Novartis |
+| **Role** | Clinical Trials Intern |
+| **Location** | Bangalore |
+| **Stipend** | ₹15,000 - 20,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Pharmacy, Life Sciences |
+| **Skills Required** | Clinical Research |
+| **Posted Date** | March 4, 2026 |
+| **Apply Link** | https://www.novartis.com/careers |
+| **HR Email** | careers.india@novartis.com |
+
+---
+
+#### 11. Bayer
+| Field | Details |
+|:---|:---|
+| **Company** | Bayer |
+| **Role** | Pharma Research Intern |
+| **Location** | Mumbai |
+| **Stipend** | Competitive |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Pharmacy, Chemistry |
+| **Skills Required** | Pharmaceutical Research |
+| **Posted Date** | March 3, 2026 |
+| **Apply Link** | https://www.bayer.com/careers/ |
+| **HR Email** | careers.india@bayer.com |
+
+---
+
+#### 12. Sanofi
+| Field | Details |
+|:---|:---|
+| **Company** | Sanofi |
+| **Role** | Medical Operations Intern |
+| **Location** | Mumbai |
+| **Stipend** | ₹12,000 - 15,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Pharmacy, Life Sciences |
+| **Skills Required** | Medical Operations |
+| **Posted Date** | March 4, 2026 |
+| **Apply Link** | https://www.sanofi.com/careers |
+| **HR Email** | careers.india@sanofi.com |
 
 ---
 
 ### 🧬 Biotech-Pharma
 
-| # | Company | Role | Location | Stipend | Posted |
-|:---:|:---|:---|:---|:---|:---:|
-| 13 | Serum Institute | Vaccine Research | Pune | ₹12-18K | Mar 5 |
-| 14 | Panacea Biotech | R&D | Delhi | ₹10-15K | Mar 4 |
-| 15 | M\|O\|C Cancer Care | Cancer Research | Mumbai | ₹15-18K | Mar 6 |
-| 16 | Syngene | Biologics Research | Bangalore | ₹12-16K | Mar 3 |
+#### 13. Serum Institute
+| Field | Details |
+|:---|:---|
+| **Company** | Serum Institute of India |
+| **Role** | Vaccine Research Intern |
+| **Location** | Pune, Maharashtra |
+| **Stipend** | ₹12,000 - 18,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Biotechnology, Microbiology |
+| **Skills Required** | Vaccine Research |
+| **Posted Date** | March 5, 2026 |
+| **Apply Link** | https://www.seruminstitute.com/careers/ |
+| **HR Email** | hr@seruminstitute.com |
 
 ---
 
-### 🔬 Quality Control & Assurance
-
-| # | Company | Role | Location | Stipend | Posted |
-|:---:|:---|:---|:---|:---|:---:|
-| 17 | Cadila Healthcare | QC Intern | Ahmedabad | ₹8-12K | Mar 2 |
-| 18 | Alembic Pharmaceuticals | QA/QC | Vadodara | ₹8-12K | Mar 3 |
-| 19 | Granules India | Quality Assurance | Hyderabad | ₹8-12K | Mar 4 |
-
----
-
-## 📍 By Region
-
-### West India (10)
-Mumbai, Pune, Ahmedabad, Vadodara - ₹10K-Competitive
-
-### South India (5)
-Bangalore, Hyderabad - ₹12K-Competitive
-
-### North India (3)
-Delhi - ₹10K-18K
-
-### East India (1)
-Kolkata - Competitive
+#### 14. Panacea Biotech
+| Field | Details |
+|:---|:---|
+| **Company** | Panacea Biotech |
+| **Role** | R&D Intern |
+| **Location** | Delhi |
+| **Stipend** | ₹10,000 - 15,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Biotechnology, Pharmacy |
+| **Skills Required** | R&D |
+| **Posted Date** | March 4, 2026 |
+| **Apply Link** | https://www.panaceabiotec.com/careers/ |
+| **HR Email** | careers@panaceabiotec.com |
 
 ---
 
-*Last Updated: March 6, 2026 | 12:00 PM IST*
+#### 15. M|O|C Cancer Care
+| Field | Details |
+|:---|:---|
+| **Company** | M|O|C Cancer Care & Research Centre |
+| **Role** | Cancer Research Intern |
+| **Location** | Mumbai |
+| **Stipend** | ₹15,000 - 18,000/month |
+| **Duration** | 3-6 Months |
+| **Qualification** | BSc Biotechnology, Life Sciences |
+| **Skills Required** | Cancer Research |
+| **Posted Date** | March 6, 2026 |
+| **Apply Link** | https://moccancercare.org/ |
+| **HR Email** | hr@moccancercare.org |
+
+---
+
+#### 16. Syngene
+| Field | Details |
+|:---|:---|
+| **Company** | Syngene International |
+| **Role** | Biologics Research Intern |
+| **Location** | Bangalore |
+| **Stipend** | ₹12,000 - 16,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Biotechnology, Pharmacy |
+| **Skills Required** | Biologics Research |
+| **Posted Date** | March 3, 2026 |
+| **Apply Link** | https://www.syngeneintl.com/careers/ |
+| **HR Email** | careers@syngeneintl.com |
+
+---
+
+### 🔬 Quality Control
+
+#### 17. Cadila Healthcare
+| Field | Details |
+|:---|:---|
+| **Company** | Cadila Healthcare |
+| **Role** | QC Intern |
+| **Location** | Ahmedabad |
+| **Stipend** | ₹8,000 - 12,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Pharmacy, Chemistry |
+| **Skills Required** | Quality Control |
+| **Posted Date** | March 2, 2026 |
+| **Apply Link** | https://www.cadilahealthcare.com/ |
+| **HR Email** | careers@cadilahealthcare.com |
+
+---
+
+#### 18. Alembic Pharmaceuticals
+| Field | Details |
+|:---|:---|
+| **Company** | Alembic Pharmaceuticals |
+| **Role** | QA/QC Intern |
+| **Location** | Vadodara |
+| **Stipend** | ₹8,000 - 12,000/month |
+| **Duration** | 6 Months |
+| **Qualification** | BSc Pharmacy, Chemistry |
+| **Skills Required** | QA/QC |
+| **Posted Date** | March 3, 2026 |
+| **Apply Link** | https://www.alembicpharmaceuticals.com/ |
+| **HR Email** | careers@alembicpharma.com |
+
+---
+
+## 📍 Summary by Region
+
+| Region | Companies |
+|:---|:---|
+| West India | Pfizer, Glenmark, Lupin, Sun Pharma, Cipla, Roche, Abbott, Sanofi, Serum, Cadila, Alembic |
+| South India | Biocon, Dr. Reddy's, Novartis, Syngene |
+| North India | Panacea Biotech, M|O|C |
+
+---
+
+*Last Updated: March 6, 2026 | 12:07 PM IST*
