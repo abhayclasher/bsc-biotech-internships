@@ -10,7 +10,18 @@
 
 </div>
 
+## 📚 Browse by Field
+
+| Field | Description | View |
+|:---|:---|:---:|
+| 🧬 **Biotechnology** | Research, Pharma, Healthcare | [View](./biotechnology/internships.md) |
+| 💻 **Computer Science** | Software, IT, Web Development | [View](./computer_science/internships.md) |
+| 🔬 **Life Sciences** | Research, Genetics, Biology | [View](./life_sciences/internships.md) |
+| 💊 **Pharmaceutical** | Drug Research, Healthcare | [View](./pharmaceutical/internships.md) |
+| 🌾 **Agriculture** | Agrotech, Food Technology | [View](./agriculture/internships.md) |
+
 ---
+
 
 ## 👤 Owner
 
@@ -32,18 +43,6 @@ B.Tech Student | MLSA | GCP Certified | Full Stack Developer
 
 **Oscar** 🤖  
 AI Assistant | Auto-updates daily
-
----
-
-## 📚 Browse by Field
-
-| Field | Description | View |
-|:---|:---|:---:|
-| 🧬 **Biotechnology** | Research, Pharma, Healthcare | [View](./biotechnology/internships.md) |
-| 💻 **Computer Science** | Software, IT, Web Development | [View](./computer_science/internships.md) |
-| 🔬 **Life Sciences** | Research, Genetics, Biology | [View](./life_sciences/internships.md) |
-| 💊 **Pharmaceutical** | Drug Research, Healthcare | [View](./pharmaceutical/internships.md) |
-| 🌾 **Agriculture** | Agrotech, Food Technology | [View](./agriculture/internships.md) |
 
 ---
 
