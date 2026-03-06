@@ -1,62 +1,56 @@
-# 🎓 Internships India
+# 🎓 Internships India - By Field
 
 <div align="center">
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-Active-green.svg)
-![Last Updated](https://img.shields.io/badge/Latest-March%206%202026-orange.svg)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-March%202026-orange.svg)
 
-### Curated internship opportunities for students in India
+**Curated internship opportunities for students in India - Organized by Field**
 
 </div>
 
-## 📚 Browse by Field
+---
 
-| Field | Description | View |
+## 📚 Available Fields
+
+Choose your field to find relevant internships:
+
+| Field | Description | Companies |
 |:---|:---|:---:|
-| 🧬 **Biotechnology** | Research, Pharma, Healthcare | [View](./biotechnology/internships.md) |
-| 💻 **Computer Science** | Software, IT, Web Development | [View](./computer_science/internships.md) |
-| 🔬 **Life Sciences** | Research, Genetics, Biology | [View](./life_sciences/internships.md) |
-| 💊 **Pharmaceutical** | Drug Research, Healthcare | [View](./pharmaceutical/internships.md) |
-| 🌾 **Agriculture** | Agrotech, Food Technology | [View](./agriculture/internships.md) |
+| 🧬 **Biotechnology** | Research, Pharma, Healthcare | [View](./biotechnology/) |
+| 💻 **Computer Science** | Software, IT, Web Development | [View](./computer_science/) |
+| 🔬 **Life Sciences** | Research, Genetics, Biology | [View](./life_sciences/) |
+| 💊 **Pharmaceutical** | Drug Research, Healthcare | [View](./pharmaceutical/) |
+| 🌾 **Agriculture** | Agrotech, Food Technology | [View](./agriculture/) |
 
 ---
 
-## 👤 Owner
+## 📂 Repository Structure
 
-**Abhay**  
-B.Tech Student | MLSA | GCP Certified
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/abhayclasher)
-[![GitHub](https://img.shields.io/badge/GitHub-333?style=flat&logo=github)](https://github.com/abhayclasher)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail)](mailto:abhayclasher@gmail.com)
-
----
-
-## 🤖 Maintained By
-
-**Oscar** 🤖  
-AI Assistant | Auto-updates daily
-
----
-## 📋 Total Internships: 69+
-
-Updated **daily** with new opportunities
+```
+internships-india/
+├── README.md
+├── biotechnology/
+│   └── internships.md
+├── computer_science/
+│   └── internships.md
+├── life_sciences/
+│   └── internships.md
+├── pharmaceutical/
+│   └── internships.md
+└── agriculture/
+    └── internships.md
+```
 
 ---
 
-## ⏰ Auto-Update Schedule
+## ⏰ Update Schedule
 
-| Time | Status |
+| Time | Task |
 |:---|:---|
-| Daily 8:00 PM | ✅ Auto-updated |
+| Daily 8:00 PM | Fresh internship data added |
 
 ---
-
-<div align="center">
-
-**Made with ❤️ in India**
-
-</div>
 
 *Last Updated: March 6, 2026*
