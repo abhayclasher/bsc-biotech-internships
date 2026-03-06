@@ -19,10 +19,10 @@ Choose your field to find relevant internships:
 | Field | Description | Companies |
 |:---|:---|:---:|
 | 🧬 **Biotechnology** | Research, Pharma, Healthcare | [View](./biotechnology/internships.md) |
-| 💻 **Computer Science** | Software, IT, Web Development | [View](./computer_science/) |
-| 🔬 **Life Sciences** | Research, Genetics, Biology | [View](./life_sciences/) |
-| 💊 **Pharmaceutical** | Drug Research, Healthcare | [View](./pharmaceutical/) |
-| 🌾 **Agriculture** | Agrotech, Food Technology | [View](./agriculture/) |
+| 💻 **Computer Science** | Software, IT, Web Development | [View](./computer_science/internships.md) |
+| 🔬 **Life Sciences** | Research, Genetics, Biology | [View](./life_sciences/internships.md) |
+| 💊 **Pharmaceutical** | Drug Research, Healthcare | [View](./pharmaceutical/internships.md) |
+| 🌾 **Agriculture** | Agrotech, Food Technology | [View](./agriculture/internships.md) |
 
 ---
 
