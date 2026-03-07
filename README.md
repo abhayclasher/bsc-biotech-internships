@@ -15,20 +15,26 @@ This repository serves as a centralized hub for students in India to find intern
 
 ---
 
-## 🚀 Explore by Category
+## 🚀 Quick Navigation
+Find internships curated by your branch or qualification:
 
-Find internships curated for your specific qualification and field:
-
-| Category | Field of Study | Links |
+### 🏢 By Branch
+| Category | Field | Links |
 | :--- | :--- | :--- |
-| 💻 **Tech & Engineering** | CS, IT, Software | [Browse Opportunities](./Engineering/Computer_Science/internships.md) |
-| ⚙️ **Mechanical** | Manufacturing, Design | [Browse Opportunities](./Engineering/Mechanical/internships.md) |
-| ⚡ **Electrical** | Electronics, VLSI | [Browse Opportunities](./Engineering/Electrical/internships.md) |
-| 🧬 **Biotechnology** | Research, Genetics | [Browse Opportunities](./Sciences/Biotechnology/internships.md) |
-| 🔬 **Life Sciences** | Pharma, Biomedical | [Browse Opportunities](./Sciences/Life_Sciences/internships.md) |
-| 💊 **Pharmaceutical** | Drug Tech, QC | [Browse Opportunities](./Sciences/Pharmaceutical/internships.md) |
-| 🌾 **Agriculture** | Agrotech, Food Tech | [Browse Opportunities](./Sciences/Agriculture/internships.md) |
-| 🎓 **By Degree** | B.Tech, B.Sc, Diploma | [Explore All Degrees](./Degrees/) |
+| 💻 **Tech & Engineering** | CS, IT, Software | [Browse](./Engineering/Computer_Science/internships.md) |
+| ⚙️ **Mechanical** | Manufacturing, Design | [Browse](./Engineering/Mechanical/internships.md) |
+| ⚡ **Electrical** | Electronics, VLSI | [Browse](./Engineering/Electrical/internships.md) |
+| 🧬 **Biotechnology** | Research, Genetics | [Browse](./Sciences/Biotechnology/internships.md) |
+| 🔬 **Life Sciences** | Pharma, Biomedical | [Browse](./Sciences/Life_Sciences/internships.md) |
+| 💊 **Pharmaceutical** | Drug Tech, QC | [Browse](./Sciences/Pharmaceutical/internships.md) |
+| 🌾 **Agriculture** | Agrotech, Food Tech | [Browse](./Sciences/Agriculture/internships.md) |
+
+### 🎓 By Degree
+| Degree | Description | Opportunities |
+| :--- | :--- | :--- |
+| 🎓 **B.Tech** | Engineering & Technology | [Explore](./Degrees/btech_internships.md) |
+| 🧪 **B.Sc** | Science & Research | [Explore](./Degrees/bsc_internships.md) |
+| 📜 **Diploma** | Technical & Vocational | [Explore](./Degrees/diploma_internships.md) |
 
 ---
 

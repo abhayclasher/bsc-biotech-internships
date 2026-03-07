@@ -16,98 +16,103 @@
 
 ### 🔌 Electrical & Electronics
 
-#### 1. Synopsys Inc
+
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Synopsys Inc
 | Field | Details |
 |:---|:---|
-| **Company** | Synopsys Inc |
 | **Role** | Analog Layout Apprenticeship |
 | **Location** | Bengaluru, Karnataka, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | B.Tech Electrical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/analog-layout-apprenticeship-at-synopsys-inc-4382105879) |
-| **HR Email** | TBD |
+| **Qual.** | B.Tech Electrical |
+| **Email** | hr@synopsysinc.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/analog-layout-apprenticeship-at-synopsys-inc-4382105879) |
 
----
-
-#### 2. Uber
+</div>
+    </td>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Uber
 | Field | Details |
 |:---|:---|
-| **Company** | Uber |
 | **Role** | 2026 Data Analytics Internship, Manipal Institute of Technology |
 | **Location** | Hyderabad, Telangana, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | B.Tech Electrical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/2026-data-analytics-internship-manipal-institute-of-technology-at-uber-4382139470) |
-| **HR Email** | TBD |
+| **Qual.** | B.Tech Electrical |
+| **Email** | hr@uber.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/2026-data-analytics-internship-manipal-institute-of-technology-at-uber-4382139470) |
 
----
-#### 3. Hyper Launch
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Hyper Launch
 | Field | Details |
 |:---|:---|
-| **Company** | Hyper Launch |
 | **Role** | Production Engineer EV - Fresher ( TAMILNADU CANDIDATES ONLY) |
 | **Location** | Coimbatore, Tamil Nadu, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | B.Tech Electrical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/production-engineer-ev-fresher-tamilnadu-candidates-only-at-hyper-launch-4379660789) |
-| **HR Email** | TBD |
+| **Qual.** | B.Tech Electrical |
+| **Email** | hr@hyperlaunch.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/production-engineer-ev-fresher-tamilnadu-candidates-only-at-hyper-launch-4379660789) |
 
----
-
-#### 4. Hyper Launch
+</div>
+    </td>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Hyper Launch
 | Field | Details |
 |:---|:---|
-| **Company** | Hyper Launch |
 | **Role** | Production Engineer EV - Fresher ( TAMILNADU CANDIDATES ONLY) |
 | **Location** | Coimbatore, Tamil Nadu, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Electrical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/production-engineer-ev-fresher-tamilnadu-candidates-only-at-hyper-launch-4379660789) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Electrical |
+| **Email** | hr@hyperlaunch.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/production-engineer-ev-fresher-tamilnadu-candidates-only-at-hyper-launch-4379660789) |
 
----
-
-#### 5. ERIC Robotics
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### ERIC Robotics
 | Field | Details |
 |:---|:---|
-| **Company** | ERIC Robotics |
 | **Role** | Deployment Mechatronics Intern |
 | **Location** | Pune Division, Maharashtra, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Electrical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/deployment-mechatronics-intern-at-eric-robotics-4380443181) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Electrical |
+| **Email** | hr@ericrobotics.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/deployment-mechatronics-intern-at-eric-robotics-4380443181) |
 
----
-
-#### 6. ERIC Robotics
+</div>
+    </td>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### ERIC Robotics
 | Field | Details |
 |:---|:---|
-| **Company** | ERIC Robotics |
 | **Role** | Deployment Mechatronics Intern |
 | **Location** | Pune Division, Maharashtra, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Electrical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/deployment-mechatronics-intern-at-eric-robotics-4380443181) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Electrical |
+| **Email** | hr@ericrobotics.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/deployment-mechatronics-intern-at-eric-robotics-4380443181) |
 
----
-
+</div>
+    </td>
+  </tr>
+</table>

@@ -16,242 +16,249 @@
 
 ### 🔩 Mechanical & Manufacturing
 
-#### 1. AeroBay
+
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### AeroBay
 | Field | Details |
 |:---|:---|
-| **Company** | AeroBay |
 | **Role** | Robotics & AI Trainer |
 | **Location** | Noida, Uttar Pradesh, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | B.Tech Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/robotics-ai-trainer-at-aerobay-4381371149) |
-| **HR Email** | TBD |
+| **Qual.** | B.Tech Mechanical |
+| **Email** | hr@aerobay.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/robotics-ai-trainer-at-aerobay-4381371149) |
 
----
-#### 2. Hyper Launch
+</div>
+    </td>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Hyper Launch
 | Field | Details |
 |:---|:---|
-| **Company** | Hyper Launch |
 | **Role** | Production Engineer EV - Fresher ( TAMILNADU CANDIDATES ONLY) |
 | **Location** | Coimbatore, Tamil Nadu, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | B.Tech Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/production-engineer-ev-fresher-tamilnadu-candidates-only-at-hyper-launch-4379660789) |
-| **HR Email** | TBD |
+| **Qual.** | B.Tech Mechanical |
+| **Email** | hr@hyperlaunch.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/production-engineer-ev-fresher-tamilnadu-candidates-only-at-hyper-launch-4379660789) |
 
----
-
-#### 3. Hyper Launch
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Hyper Launch
 | Field | Details |
 |:---|:---|
-| **Company** | Hyper Launch |
 | **Role** | Production Engineer EV - Fresher ( TAMILNADU CANDIDATES ONLY) |
 | **Location** | Coimbatore, Tamil Nadu, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/production-engineer-ev-fresher-tamilnadu-candidates-only-at-hyper-launch-4379660789) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@hyperlaunch.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/production-engineer-ev-fresher-tamilnadu-candidates-only-at-hyper-launch-4379660789) |
 
----
-
-#### 4. The Goodyear Tire & Rubber Company
+</div>
+    </td>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### The Goodyear Tire & Rubber Company
 | Field | Details |
 |:---|:---|
-| **Company** | The Goodyear Tire & Rubber Company |
 | **Role** | Vehicle Validation Engineer |
 | **Location** | Greater Hyderabad Area |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/vehicle-validation-engineer-at-the-goodyear-tire-rubber-company-4380409226) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@thegoodyeartire&rubbercompany.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/vehicle-validation-engineer-at-the-goodyear-tire-rubber-company-4380409226) |
 
----
-
-#### 5. AutoForest
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### AutoForest
 | Field | Details |
 |:---|:---|
-| **Company** | AutoForest |
 | **Role** | Electrical/Mechanical Engineer Internship in Ahmedabad |
 | **Location** | Ahmedabad, Gujarat, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/electrical-mechanical-engineer-internship-in-ahmedabad-at-autoforest-4380591629) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@autoforest.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/electrical-mechanical-engineer-internship-in-ahmedabad-at-autoforest-4380591629) |
 
----
-
-#### 6. Inventindia Innovations Pvt. Ltd.
+</div>
+    </td>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Inventindia Innovations Pvt. Ltd.
 | Field | Details |
 |:---|:---|
-| **Company** | Inventindia Innovations Pvt. Ltd. |
 | **Role** | Mechanical Product Design Intern |
 | **Location** | Ahmedabad, Gujarat, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/mechanical-product-design-intern-at-inventindia-innovations-pvt-ltd-4376688180) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@inventindiainnovationspvt.ltd..com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/mechanical-product-design-intern-at-inventindia-innovations-pvt-ltd-4376688180) |
 
----
-
-#### 7. Tecmac Solution
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Tecmac Solution
 | Field | Details |
 |:---|:---|
-| **Company** | Tecmac Solution |
 | **Role** | Computer Aided Design Designer |
 | **Location** | Pune Division, Maharashtra, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@tecmacsolution.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#) |
 
----
-
-#### 8. ERIC Robotics
+</div>
+    </td>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### ERIC Robotics
 | Field | Details |
 |:---|:---|
-| **Company** | ERIC Robotics |
 | **Role** | Deployment Mechatronics Intern |
 | **Location** | Pune Division, Maharashtra, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/deployment-mechatronics-intern-at-eric-robotics-4380443181) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@ericrobotics.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/deployment-mechatronics-intern-at-eric-robotics-4380443181) |
 
----
-
-#### 9. Hyper Launch
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Hyper Launch
 | Field | Details |
 |:---|:---|
-| **Company** | Hyper Launch |
 | **Role** | Production Engineer EV - Fresher ( TAMILNADU CANDIDATES ONLY) |
 | **Location** | Coimbatore, Tamil Nadu, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/production-engineer-ev-fresher-tamilnadu-candidates-only-at-hyper-launch-4379660789) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@hyperlaunch.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/production-engineer-ev-fresher-tamilnadu-candidates-only-at-hyper-launch-4379660789) |
 
----
-
-#### 10. BrahmGuru AI
+</div>
+    </td>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### BrahmGuru AI
 | Field | Details |
 |:---|:---|
-| **Company** | BrahmGuru AI |
 | **Role** | Video Editor |
 | **Location** | Noida, Uttar Pradesh, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/video-editor-at-brahmguru-ai-4379150704) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@brahmguruai.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/video-editor-at-brahmguru-ai-4379150704) |
 
----
-
-#### 11. GKN Sintermetals Private Limited
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### GKN Sintermetals Private Limited
 | Field | Details |
 |:---|:---|
-| **Company** | GKN Sintermetals Private Limited |
 | **Role** | Diploma Student |
 | **Location** | Mumbai, Maharashtra, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/diploma-student-at-gkn-sintermetals-private-limited-4381305663) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@gknsintermetalsprivatelimited.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/diploma-student-at-gkn-sintermetals-private-limited-4381305663) |
 
----
-
-#### 12. Delhi Film Academy
+</div>
+    </td>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Delhi Film Academy
 | Field | Details |
 |:---|:---|
-| **Company** | Delhi Film Academy |
 | **Role** | Video Editing/Making Internship in Delhi |
 | **Location** | Delhi, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/video-editing-making-internship-in-delhi-at-delhi-film-academy-4380589754) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@delhifilmacademy.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/video-editing-making-internship-in-delhi-at-delhi-film-academy-4380589754) |
 
----
-
-#### 13. Healsway
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Healsway
 | Field | Details |
 |:---|:---|
-| **Company** | Healsway |
 | **Role** | Junior Furniture & Interior Designer |
 | **Location** | Dehradun, Uttarakhand, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/junior-furniture-interior-designer-at-healsway-4377384290) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@healsway.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/jobs/view/junior-furniture-interior-designer-at-healsway-4377384290) |
 
----
-
-#### 14. Purposeless Pictures
+</div>
+    </td>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Purposeless Pictures
 | Field | Details |
 |:---|:---|
-| **Company** | Purposeless Pictures |
 | **Role** | 🎬 Internship Opportunities – Web Series Production |
 | **Location** | Greater Kolkata Area |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@purposelesspictures.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#) |
 
----
-
-#### 15. Tecmac Solution
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+<div align="center">
+    
+#### Tecmac Solution
 | Field | Details |
 |:---|:---|
-| **Company** | Tecmac Solution |
 | **Role** | Computer Aided Design Designer |
 | **Location** | Pune Division, Maharashtra, India |
-| **Stipend** | Competitive |
 | **Duration** | 3-6 Months |
-| **Qualification** | Diploma Mechanical |
-| **Skills Required** | Technical |
-| **Posted Date** | March 07, 2026 |
-| **Apply Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#) |
-| **HR Email** | TBD |
+| **Qual.** | Diploma Mechanical |
+| **Email** | hr@tecmacsolution.com |
+| **Link** | [![Apply Now](https://img.shields.io/badge/Apply_Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#) |
 
----
-
+</div>
+    </td>
+    <td width="50%"></td>
+  </tr>
+</table>

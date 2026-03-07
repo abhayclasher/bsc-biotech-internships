@@ -2,16 +2,36 @@
 
 ---
 
-## 📋 Explore by Field
-Click on your field below to find the latest opportunities:
+## 📋 Explore by field of Study
+Choose your specialization to find curated opportunities:
 
-| Field | Link |
-| :--- | :--- |
-| 💻 Computer Science | [View Internships](../Engineering/Computer_Science/internships.md) |
-| 🧬 Biotechnology | [View Internships](../Sciences/Biotechnology/internships.md) |
-| 🔬 Life Sciences | [View Internships](../Sciences/Life_Sciences/internships.md) |
-| 💊 Pharmaceutical | [View Internships](../Sciences/Pharmaceutical/internships.md) |
-| 🌾 Agriculture | [View Internships](../Sciences/Agriculture/internships.md) |
+<table width="100%">
+  <tr>
+    <td width="33%" align="center">
+      <h3>🧬 Biotech</h3>
+      <a href="../Sciences/Biotechnology/internships.md">Browse All</a>
+    </td>
+    <td width="33%" align="center">
+      <h3>🔬 Life Sciences</h3>
+      <a href="../Sciences/Life_Sciences/internships.md">Browse All</a>
+    </td>
+    <td width="33%" align="center">
+      <h3>🌾 Agriculture</h3>
+      <a href="../Sciences/Agriculture/internships.md">Browse All</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center">
+      <h3>💊 Pharma</h3>
+      <a href="../Sciences/Pharmaceutical/internships.md">Browse All</a>
+    </td>
+    <td width="33%" align="center">
+      <h3>💻 Comp. Sci</h3>
+      <a href="../Engineering/Computer_Science/internships.md">Browse All</a>
+    </td>
+    <td width="33%" align="center"></td>
+  </tr>
+</table>
 
 ---
-*Updated Daily*
+*Updated Daily by Automation*
