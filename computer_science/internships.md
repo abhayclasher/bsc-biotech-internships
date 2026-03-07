@@ -355,4 +355,21 @@
 
 ---
 
-*Last Updated: March 6, 2026 | 12:07 PM IST*| Inficore Soft | Data Analyst Intern | India | Competitive | 3-6 Months | Diploma | Technical | [Apply Now](https://in.linkedin.com/jobs/view/data-analyst-intern-at-inficore-soft-4381353662) | 2026-03-07 | LinkedIn |
+*Last Updated: March 6, 2026 | 12:07 PM IST*
+
+#### 21. Inficore Soft
+| Field | Details |
+|:---|:---|
+| **Company** | Inficore Soft |
+| **Role** | Data Analyst Intern |
+| **Location** | India |
+| **Stipend** | Competitive |
+| **Duration** | 3-6 Months |
+| **Qualification** | Diploma |
+| **Skills Required** | Technical |
+| **Posted Date** | 2026-03-07 |
+| **Apply Link** | https://in.linkedin.com/jobs/view/data-analyst-intern-at-inficore-soft-4381353662 |
+| **HR Email** | TBD |
+
+---
+
