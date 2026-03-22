@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries,typography"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&amp;family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-error": "#490106",
+                        "secondary-container": "#3a3b41",
+                        "inverse-primary": "#005cc0",
+                        "surface": "#0e0e0e",
+                        "secondary": "#9d9da4",
+                        "secondary-dim": "#9d9da4",
+                        "on-secondary-container": "#bebfc5",
+                        "outline-variant": "#484848",
+                        "on-primary": "#003e86",
+                        "on-tertiary-fixed-variant": "#52506b",
+                        "on-surface-variant": "#acabaa",
+                        "surface-container": "#191a1a",
+                        "primary-fixed": "#d7e2ff",
+                        "tertiary": "#e3dfff",
+                        "tertiary-fixed": "#d5d1f2",
+                        "error-dim": "#bb5551",
+                        "on-tertiary-container": "#484661",
+                        "tertiary-container": "#d5d1f2",
+                        "inverse-surface": "#fcf9f8",
+                        "surface-container-lowest": "#000000",
+                        "surface-container-high": "#1f2020",
+                        "surface-bright": "#2c2c2c",
+                        "on-secondary": "#1e2025",
+                        "on-surface": "#e7e5e4",
+                        "primary": "#acc7ff",
+                        "surface-container-highest": "#252626",
+                        "tertiary-fixed-dim": "#c7c3e3",
+                        "on-primary-fixed-variant": "#0058b9",
+                        "secondary-fixed-dim": "#d4d4db",
+                        "on-tertiary-fixed": "#35334d",
+                        "surface-container-low": "#131313",
+                        "primary-container": "#004492",
+                        "error": "#ee7d77",
+                        "on-tertiary": "#514f6a",
+                        "on-secondary-fixed": "#3e3f45",
+                        "on-secondary-fixed-variant": "#5a5b61",
+                        "error-container": "#7f2927",
+                        "background": "#0e0e0e",
+                        "outline": "#767575",
+                        "inverse-on-surface": "#565555",
+                        "on-primary-fixed": "#003d84",
+                        "on-background": "#e7e5e4",
+                        "on-error-container": "#ff9993",
+                        "primary-dim": "#96b9ff",
+                        "tertiary-dim": "#c7c3e3",
+                        "surface-variant": "#252626",
+                        "surface-tint": "#acc7ff",
+                        "on-primary-container": "#bcd0ff",
+                        "primary-fixed-dim": "#c2d4ff",
+                        "secondary-fixed": "#e2e2e9",
+                        "surface-dim": "#0e0e0e"
+                    },
+                    fontFamily: {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"]
+                    },
+                    borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #0e0e0e;
+            color: #e7e5e4;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+        .blueprint-grid {
+            background-image: radial-gradient(circle, #ffffff05 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+        .degree-active {
+            border-color: #acc7ff !important;
+            background-color: rgba(172, 199, 255, 0.05);
+        }
+        .degree-active h4 {
+            color: #acc7ff;
+        }
+        .field-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+        }
+        .field-card.hidden-field {
+            display: none;
+            opacity: 0;
+            transform: scale(0.95);
+        }
+        .field-card.highlight {
+            border: 1px solid #acc7ff;
+            background-color: #1f2020;
+        }
+        /* Modal Styles */
+        #modal-overlay {
+            display: none;
+            background-color: #0e0e0e;
+        }
+        #modal-overlay.active {
+            display: block;
+        }
+        .markdown-content h1 { @apply text-3xl font-black uppercase mb-6 text-primary; }
+        .markdown-content h2 { @apply text-2xl font-black uppercase mb-4 mt-8 border-b border-outline-variant pb-2; }
+        .markdown-content h3 { @apply text-xl font-bold uppercase mb-3 mt-6; }
+        .markdown-content p { @apply text-on-surface-variant mb-4 leading-relaxed; }
+        .markdown-content ul { @apply list-disc list-inside mb-4 space-y-2; }
+        .markdown-content a { @apply text-primary underline hover:opacity-80 transition-opacity; }
+        .markdown-content table { @apply w-full border-collapse mb-8; }
+        .markdown-content th { @apply text-left border-b-2 border-outline-variant p-4 font-black uppercase text-xs tracking-widest text-zinc-500; }
+        .markdown-content td { @apply p-4 border-b border-outline-variant text-sm text-on-surface-variant; }
+        .markdown-content tr:hover td { @apply bg-white/5; }
+
+        /* Loader Animation */
+        .brutalist-loader {
+            width: 48px;
+            height: 48px;
+            border: 4px solid #acc7ff;
+            border-bottom-color: transparent;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+        }
+        @keyframes rotation {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="font-body selection:bg-primary selection:text-on-primary">
+    <!-- Modal Overlay -->
+    <div id="modal-overlay" class="fixed inset-0 z-[100] overflow-y-auto">
+        <div class="min-h-screen flex flex-col">
+            <!-- Modal Header -->
+            <nav class="sticky top-0 w-full bg-[#0e0e0e] border-b border-outline-variant px-6 py-4 flex justify-between items-center">
+                <div class="flex items-center gap-4">
+                    <span id="modal-field-icon" class="material-symbols-outlined text-primary">code</span>
+                    <span id="modal-field-name" class="text-xl font-black tracking-tighter text-white uppercase font-headline">COMPUTER SCIENCE</span>
+                </div>
+                <button onclick="closeModal()" class="flex items-center gap-2 bg-primary text-on-primary px-6 py-2 font-black uppercase text-sm hover:opacity-90 active:scale-95 transition-all">
+                    <span class="material-symbols-outlined text-sm">arrow_back</span>
+                    Back to Fields
+                </button>
+            </nav>
+
+            <!-- Modal Content -->
+            <div class="flex-grow max-w-5xl w-full mx-auto px-6 py-12">
+                <div id="modal-loading" class="flex flex-col items-center justify-center py-12">
+                    <span class="brutalist-loader mb-6"></span>
+                    <p class="font-label text-xs tracking-[0.3em] uppercase text-primary font-bold">Fetching Industrial Matrix...</p>
+                </div>
+                <div id="modal-error" class="hidden text-center py-12">
+                    <span class="material-symbols-outlined text-error text-6xl mb-6">error</span>
+                    <h3 class="text-2xl font-black uppercase mb-4">Connection Failed</h3>
+                    <p class="text-on-surface-variant mb-8">Could not retrieve internships from GitHub. Please check your connection.</p>
+                    <button onclick="closeModal()" class="border border-outline px-8 py-3 font-bold uppercase text-xs tracking-widest hover:bg-white/5">Return Home</button>
+                </div>
+                <div id="modal-content" class="markdown-content hidden">
+                    <!-- Parsed Markdown Injected Here -->
+                </div>
+            </div>
+            
+            <!-- Modal Footer -->
+            <footer class="p-5 border-t border-outline-variant bg-surface-container-low text-center">
+                <p class="font-label text-[10px] tracking-widest uppercase text-zinc-600">SOURCE: RAW.GITHUBUSERCONTENT.COM / DATA_LOCKED</p>
+            </footer>
+        </div>
+    </div>
+
+    <nav class="fixed top-0 w-full z-50 rounded-none bg-[#0e0e0e] border-b border-white/5">
+        <div class="flex justify-between items-center w-full px-6 py-4 mx-auto max-w-7xl">
+            <div class="flex items-center gap-4">
+                <span class="material-symbols-outlined text-indigo-400">language</span>
+                <span class="text-xl font-black tracking-tighter text-white uppercase font-headline">internships.india</span>
+            </div>
+            <div class="hidden md:flex gap-4 items-center">
+                <a class="font-['Inter'] font-bold tracking-tight text-indigo-400 hover:bg-zinc-900 transition-colors duration-200 px-3 py-1" href="#fields">Browse</a>
+                <a class="font-['Inter'] font-bold tracking-tight text-zinc-500 hover:bg-zinc-900 transition-colors duration-200 px-3 py-1" href="https://github.com/abhayclasher/internships-india/issues/new" target="_blank">Post Internship</a>
+                <a class="font-['Inter'] font-bold tracking-tight text-zinc-500 hover:bg-zinc-900 transition-colors duration-200 px-3 py-1" href="https://github.com/abhayclasher/internships-india" target="_blank">GitHub</a>
+            </div>
+            <a href="https://github.com/abhayclasher/internships-india" target="_blank" class="bg-primary-container text-on-primary-container px-6 py-2 text-sm font-bold active:scale-95 transition-transform hover:bg-opacity-90">
+                Star on GitHub
+            </a>
+        </div>
+    </nav>
+
+    <main class="pt-24 blueprint-grid">
+        <!-- Hero Section -->
+        <header class="max-w-7xl mx-auto px-6 py-16 md:py-12">
+            <div class="max-w-4xl">
+                <div class="inline-block bg-primary-container/20 border-l-4 border-primary px-4 py-2 mb-6">
+                    <span class="font-label text-primary tracking-widest text-xs uppercase font-bold">Live Portal • v2.0</span>
+                </div>
+                <h1 class="text-5xl md:text-8xl font-black tracking-tighter leading-none mb-6 font-headline uppercase">
+                    Find Your Next <br/>
+                    <span class="text-primary italic">Internship</span> in India
+                </h1>
+                <p class="text-on-surface-variant text-xl md:text-2xl max-w-2xl font-light leading-relaxed border-l border-outline-variant pl-8">
+                    Direct access to a curated database of <span class="text-on-surface font-bold">200+ daily updated</span> opportunities. Filter by degree to start.
+                </p>
+            </div>
+        </header>
+
+        <!-- Degree Navigation -->
+        <section class="max-w-7xl mx-auto px-6 py-8">
+            <div class="mb-12">
+                <h2 class="font-label text-zinc-500 text-sm tracking-[0.2em] uppercase mb-4 font-bold">/ Qualification _ Selection</h2>
+                <h3 class="text-4xl font-black font-headline uppercase">Select Your Degree</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <button onclick="filterByDegree('btech')" id="btn-btech" class="relative overflow-hidden group border border-outline-variant p-5 text-left hover:border-primary transition-all active:scale-[0.98]">
+                    <span class="font-label text-zinc-600 text-xs mb-6 block font-bold">REF_DEG_01</span>
+                    <h4 class="text-4xl font-black font-headline block mb-2 uppercase group-hover:text-primary transition-colors">B.Tech</h4>
+                    <p class="text-on-surface-variant text-sm">Engineering &amp; Technology</p>
+                    <div class="absolute -bottom-4 -right-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <span class="material-symbols-outlined text-[100px]">engineering</span>
+                    </div>
+                </button>
+                <button onclick="filterByDegree('bsc')" id="btn-bsc" class="relative overflow-hidden group border border-outline-variant p-5 text-left hover:border-primary transition-all active:scale-[0.98]">
+                    <span class="font-label text-zinc-600 text-xs mb-6 block font-bold">REF_DEG_02</span>
+                    <h4 class="text-4xl font-black font-headline block mb-2 uppercase group-hover:text-primary transition-colors">B.Sc</h4>
+                    <p class="text-on-surface-variant text-sm">Pure Sciences &amp; Research</p>
+                    <div class="absolute -bottom-4 -right-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <span class="material-symbols-outlined text-[100px]">science</span>
+                    </div>
+                </button>
+                <button onclick="filterByDegree('diploma')" id="btn-diploma" class="relative overflow-hidden group border border-outline-variant p-5 text-left hover:border-primary transition-all active:scale-[0.98]">
+                    <span class="font-label text-zinc-600 text-xs mb-6 block font-bold">REF_DEG_03</span>
+                    <h4 class="text-4xl font-black font-headline block mb-2 uppercase group-hover:text-primary transition-colors">Diploma</h4>
+                    <p class="text-on-surface-variant text-sm">Technical Certifications</p>
+                    <div class="absolute -bottom-4 -right-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <span class="material-symbols-outlined text-[100px]">workspace_premium</span>
+                    </div>
+                </button>
+            </div>
+        </section>
+
+        <!-- Available Fields Section -->
+        <section id="fields" class="max-w-7xl mx-auto px-6 py-16">
+            <div class="flex items-end justify-between mb-12">
+                <div>
+                    <h2 class="font-label text-zinc-500 text-sm tracking-[0.2em] uppercase mb-4 font-bold">/ Fields Matrix</h2>
+                    <h3 id="fields-title" class="text-4xl font-black font-headline uppercase">All Categories</h3>
+                </div>
+                <div class="hidden md:block h-px bg-outline-variant flex-grow mx-12 opacity-30"></div>
+                <div class="font-label text-xs text-zinc-600" id="filter-status">Viewing All</div>
+            </div>
+            
+            <div id="fields-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-px bg-outline-variant/20 border border-outline-variant/20">
+                <!-- CS -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="btech,bsc,diploma" 
+                     data-path="Engineering/Computer_Science/internships.md"
+                     onclick="openField('Computer Science', 'code', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">code</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Computer Science</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Software, Web, Mobile, &amp; Cloud Engineering roles.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Mechanical -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="btech,diploma"
+                     data-path="Engineering/Mechanical/internships.md"
+                     onclick="openField('Mechanical', 'settings', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">settings</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Mechanical</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Design, thermal, and manufacturing engineering positions.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Civil -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="btech,diploma"
+                     data-path="Engineering/Civil/internships.md"
+                     onclick="openField('Civil Engineering', 'architecture', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">architecture</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Civil Engineering</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Structural design, site management, and urban planning.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Electrical -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="btech,diploma"
+                     data-path="Engineering/Electrical/internships.md"
+                     onclick="openField('Electrical', 'bolt', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">bolt</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Electrical</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Power systems, circuits, and automation roles.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Electronics -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="btech,diploma"
+                     data-path="Engineering/Electronics/internships.md"
+                     onclick="openField('Electronics', 'memory', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">memory</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Electronics</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">VLSI, embedded systems, and communication engineering.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Chemical -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="btech,diploma"
+                     data-path="Engineering/Chemical/internships.md"
+                     onclick="openField('Chemical', 'science', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">science</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Chemical</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Process design, refinery, and materials research.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Biotechnology -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="btech,bsc,diploma"
+                     data-path="Engineering/Biotechnology/internships.md"
+                     onclick="openField('Biotechnology', 'biotech', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">biotech</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Biotechnology</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Genetic engineering, bioinformatics, and lab research.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Aerospace -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="btech,diploma"
+                     data-path="Engineering/Aerospace/internships.md"
+                     onclick="openField('Aerospace', 'flight', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">flight</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Aerospace</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Aircraft design, propulsion, and avionics systems.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Physics -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="bsc,diploma"
+                     data-path="Science/Physics/internships.md"
+                     onclick="openField('Physics', 'atom', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">atom</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Physics</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Research assistants, data analysis, and lab technical roles.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Chemistry -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="bsc,diploma"
+                     data-path="Science/Chemistry/internships.md"
+                     onclick="openField('Chemistry', 'experiment', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">experiment</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Chemistry</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Analytical chemistry, R&amp;D, and quality control.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Mathematics -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="bsc,diploma"
+                     data-path="Science/Mathematics/internships.md"
+                     onclick="openField('Mathematics', 'calculate', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">calculate</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Mathematics</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Statistical modeling, cryptography, and quantitative analysis.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Management -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="diploma"
+                     data-path="Management/internships.md"
+                     onclick="openField('Management', 'leaderboard', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">leaderboard</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Management</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Operations, logistics, and business development.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+                <!-- Content Writing -->
+                <div class="field-card group bg-surface-container-low p-5 hover:bg-surface-container-high transition-colors" 
+                     data-degrees="diploma"
+                     data-path="Other/Content_Writing/internships.md"
+                     onclick="openField('Content Writing', 'edit_note', this.dataset.path)">
+                    <span class="material-symbols-outlined text-primary mb-6 text-3xl">edit_note</span>
+                    <h4 class="font-headline font-bold text-lg mb-2">Content</h4>
+                    <p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Technical writing, copywriting, and documentation.</p>
+                    <div class="font-label text-xs tracking-widest text-primary uppercase flex items-center gap-2 group-hover:gap-4 transition-all">
+                        View List <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Workflow Section -->
+        <section class="max-w-7xl mx-auto px-6 py-16">
+            <div class="flex flex-col lg:flex-row gap-6 items-start">
+                <div class="lg:sticky lg:top-32 lg:w-1/3">
+                    <h2 class="font-label text-zinc-500 text-sm tracking-[0.2em] uppercase mb-4 font-bold">/ Operational _ Logic</h2>
+                    <h3 class="text-6xl font-black font-headline uppercase leading-none mb-8">THE_<br/><span class="text-primary">WORKFLOW</span></h3>
+                    <p class="text-on-surface-variant text-lg leading-relaxed mb-6">
+                        Our engine streamlines internship acquisition. Discovery, tracking, and application are optimized for speed.
+                    </p>
+                    <div class="w-20 h-1 bg-primary"></div>
+                </div>
+                <div class="lg:w-2/3 w-full">
+                    <div class="space-y-0">
+                        <div class="flex gap-4 py-10 border-b border-outline-variant group">
+                            <span class="font-label text-primary font-bold text-xl opacity-50 group-hover:opacity-100 transition-opacity">01</span>
+                            <div>
+                                <h4 class="text-2xl font-black font-headline uppercase mb-3">Select Degree</h4>
+                                <p class="text-on-surface-variant max-w-lg">Choose your qualification level to filter relevant industrial matrices.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-10 border-b border-outline-variant group">
+                            <span class="font-label text-primary font-bold text-xl opacity-50 group-hover:opacity-100 transition-opacity">02</span>
+                            <div>
+                                <h4 class="text-2xl font-black font-headline uppercase mb-3">Browse Fields</h4>
+                                <p class="text-on-surface-variant max-w-lg">Identify your domain from our specialized field categories.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-10 border-b border-outline-variant group">
+                            <span class="font-label text-primary font-bold text-xl opacity-50 group-hover:opacity-100 transition-opacity">03</span>
+                            <div>
+                                <h4 class="text-2xl font-black font-headline uppercase mb-3">Instant Load</h4>
+                                <p class="text-on-surface-variant max-w-lg">Data is fetched live from GitHub and rendered in-app for maximum speed.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 py-10 group">
+                            <span class="font-label text-primary font-bold text-xl opacity-50 group-hover:opacity-100 transition-opacity">04</span>
+                            <div>
+                                <h4 class="text-2xl font-black font-headline uppercase mb-3">Direct Apply</h4>
+                                <p class="text-on-surface-variant max-w-lg">Follow official links to initiate application processes directly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="w-full rounded-none bg-[#131313] border-t border-white/5 mt-16">
+        <div class="flex flex-col md:flex-row justify-between items-center w-full px-8 py-12 mx-auto max-w-7xl">
+            <div class="mb-8 md:mb-0">
+                <span class="text-sm font-bold text-white uppercase font-headline">INTERN_ARCHITECT</span>
+                <p class="font-['Space_Grotesk'] text-[10px] tracking-widest uppercase text-zinc-600 mt-2">© 2026 INTERN_ARCHITECT. BUILT FOR PRECISION.</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a class="font-['Space_Grotesk'] text-xs tracking-widest uppercase text-zinc-600 hover:text-indigo-400 transition-colors opacity-80 hover:opacity-100" href="#fields">Browse</a>
+                <a class="font-['Space_Grotesk'] text-xs tracking-widest uppercase text-zinc-600 hover:text-indigo-400 transition-colors opacity-80 hover:opacity-100" href="https://github.com/abhayclasher/internships-india/issues/new" target="_blank">Post Internship</a>
+                <a class="font-['Space_Grotesk'] text-xs tracking-widest uppercase text-zinc-600 hover:text-indigo-400 transition-colors opacity-80 hover:opacity-100" href="https://github.com/abhayclasher/internships-india" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const REPO_RAW_URL = 'https://raw.githubusercontent.com/abhayclasher/internships-india/main/';
+
+        function filterByDegree(degree) {
+            const buttons = ['btn-btech', 'btn-bsc', 'btn-diploma'];
+            const cards = document.querySelectorAll('.field-card');
+            const title = document.getElementById('fields-title');
+            const status = document.getElementById('filter-status');
+            
+            // Toggle active state
+            buttons.forEach(btnId => {
+                const btn = document.getElementById(btnId);
+                if (btnId === 'btn-' + degree) {
+                    btn.classList.toggle('degree-active');
+                } else {
+                    btn.classList.remove('degree-active');
+                }
+            });
+
+            const isActive = document.getElementById('btn-' + degree).classList.contains('degree-active');
+
+            if (!isActive) {
+                cards.forEach(card => card.classList.remove('hidden-field', 'highlight'));
+                title.innerText = 'All Categories';
+                status.innerText = 'Viewing All';
+                return;
+            }
+
+            let count = 0;
+            cards.forEach(card => {
+                const degrees = card.getAttribute('data-degrees').split(',');
+                if (degrees.includes(degree)) {
+                    card.classList.remove('hidden-field');
+                    card.classList.add('highlight');
+                    count++;
+                } else {
+                    card.classList.add('hidden-field');
+                    card.classList.remove('highlight');
+                }
+            });
+
+            title.innerText = degree.toUpperCase() + ' Fields';
+            status.innerText = 'Filtered: ' + count + ' Available';
+
+            document.getElementById('fields').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        async function openField(name, icon, path) {
+            const modal = document.getElementById('modal-overlay');
+            const modalName = document.getElementById('modal-field-name');
+            const modalIcon = document.getElementById('modal-field-icon');
+            const modalContent = document.getElementById('modal-content');
+            const modalLoading = document.getElementById('modal-loading');
+            const modalError = document.getElementById('modal-error');
+
+            // Reset and Show Modal
+            modalName.innerText = name.toUpperCase();
+            modalIcon.innerText = icon;
+            modalContent.classList.add('hidden');
+            modalError.classList.add('hidden');
+            modalLoading.classList.remove('hidden');
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+
+            try {
+                const response = await fetch(REPO_RAW_URL + path);
+                if (!response.ok) throw new Error('Network response was not ok');
+                const markdown = await response.text();
+                
+                // Parse and inject
+                modalContent.innerHTML = marked.parse(markdown);
+                
+                // Update Links to open in new tab
+                modalContent.querySelectorAll('a').forEach(link => {
+                    link.setAttribute('target', '_blank');
+                });
+
+                modalLoading.classList.add('hidden');
+                modalContent.classList.remove('hidden');
+            } catch (error) {
+                console.error('Fetch error:', error);
+                modalLoading.classList.add('hidden');
+                modalError.classList.remove('hidden');
+            }
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal-overlay');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+    </script>
+</body>
+</html>
+
